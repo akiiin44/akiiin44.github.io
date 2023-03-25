@@ -1,0 +1,114 @@
+/* Hintergrund*/
+body{
+    background-color: #e6ccb2;
+}
+
+/* Überschrift*/
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 52px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 4px;
+    color: #495057;
+}
+
+.subtitle{
+    font-family: Nunito;
+    text-align: center;
+    font-size: medium;
+    margin-top: 4px;
+    color: #6C757D;
+}
+
+/* Main Nav*/
+.main-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav ul{
+    display: inline;
+    text-align: center;
+    background-color: floralwhite;
+    border-radius: 28px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.main-nav ul li{
+    display: inline-block;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    position: relative;
+    font-family: 'Nunito';
+    font-weight: 700;
+    color:#495057;
+    margin-right: 10vw;
+    font-size: large;
+}
+
+.main-nav ul li a:hover{
+    font-weight: bolder;
+}
+
+a:hover::after {
+    content: ''; /* Create a pseudo-element */
+    position: absolute; /* Position the pseudo-element absolutely */
+    left: 0; /* Start at the left edge of the <a> element */
+    bottom: -2px; /* Place the pseudo-element just below the text */
+    width: 100%; /* Make the pseudo-element span the entire width */
+    height: 2px; /* Set the height of the pseudo-element */
+    background-color: #495057; /* Set the color of the pseudo-element */
+    animation: slide 0.3s ease-in-out; /* Add the animation */
+  }
+
+@keyframes slide {
+    from { width: 0; } /* Start with a width of 0 */
+    to { width: 100%; } /* End with a width of 100% */
+}
+
+.main-nav i{
+    padding-left: 1em;
+}
+
+/* Container */
+.container{
+    display: flex;
+}
+/* Themen */
+
+.topics{
+    background-color: floralwhite;
+    width: 25vw;
+    height: 35vh;
+    border-radius: 18px;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topics i{
+    margin-bottom: 10px;
+}
+
+.topics a{
+    text-decoration: none;
+}
+
+.topic{
+    font-family: Nunito;
+    font-size: large;
+    color:#495057;
+    font-weight: 700;
+    padding-left: 1vw;
+    text-decoration: none;
+}
