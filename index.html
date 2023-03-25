@@ -15,11 +15,13 @@
         <link rel="stylesheet" href="resources/fontawesome-free-6.3.0-web/css/solid.css">
         <link rel="stylesheet" href="resources/fontawesome-free-6.3.0-web/css/brands.css">
         <script defer src="resources/fontawesome-free-6.3.0-web/js/all.js"></script>
+        <script src="js/app.js" async ></script>
+        <script src="js/jquery-3.6.4.min.js" async></script>
     </head>
-    <header>
+    <header id="top">
         <h1>Akins Duas</h1>
         <h3 class="subtitle">Eine saubere Sammlung von Duas</h3>
-
+    
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Startseite <i class="fa-solid fa-house fa-sm"></i>   </a></li>
@@ -29,6 +31,9 @@
         </nav>
     </header>
     <body>
+
+        <!--die Themen der Seite-->
+        
         <div class="container">
             <div class="topics">
                 <a href="#"><i class="fa-solid fa-mug-hot fa-10x" style="color: #495057;"></i>
@@ -49,9 +54,31 @@
                     <h3 class="topic">Vor dem Schlafen</h3>
                 </a>
             </div>
-            <div class="topics"></div>
+            <div class="topics">
+                <a href="#">
+                    <i class="fa-solid fa-suitcase-medical fa-10x" style="color: #495057;"></i>
+                    <h3 class="topic">Gesundheit</h3>
+                </a>
+            </div>
         </div>
-        <script src="js/app.js" async defer></script>
-        
+        <div class="container">
+            <div class="topics">
+                <a href="#">
+                    <i class="fa-solid fa-tornado fa-10x" style="color: #495057;"></i>
+                    <h3 class="topic">Alpträume</h3>
+                </a>
+            </div>
+            <div class="topics">
+                <a href="#">
+                    <i class="fa-solid fa-book-quran fa-10x" style="color: #495057;"></i>
+                    <h3 class="topic">Die Namen Allahs</h3>
+                </a>
+            </div>
+        </div>
+        <!--nach oben-->
+        <a href="#top" class="scroll-to-top-btn"><i class="fa-solid fa-angles-up fa-2x" style="color: #495057;"></i></a>
+
+
     </body>
+    
 </html>
