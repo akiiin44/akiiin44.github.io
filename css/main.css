@@ -56,7 +56,7 @@ h1{
     font-weight: bolder;
 }
 
-.main-nav a:hover::after {
+.main-nav ul li a:hover::after {
     content: ''; /* Create a pseudo-element */
     position: absolute; /* Position the pseudo-element absolutely */
     left: 0; /* Start at the left edge of the <a> element */
