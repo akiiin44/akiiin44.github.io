@@ -113,30 +113,3 @@ h1{
     text-decoration: none;
 }
 
-/* Nach Oben*/
-.scroll-to-top-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    font-size: 14px;
-    color: #fff;
-    background-color: floralwhite;
-    border-radius: 80px;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 9999;
-  }
-  
-  
-  .scroll-to-top-btn.show {
-    display: block;
-  }
-  
-  .scroll-to-top-btn:focus {
-    outline: none;
-  }
-  
-  html{
-    scroll-behavior: smooth;
-  }
