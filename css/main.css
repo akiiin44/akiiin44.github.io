@@ -79,7 +79,13 @@ h1{
 /* Container */
 .container{
     display: flex;
+
 }
+
+.container hr{
+    width:70%
+}
+
 /* Themen */
 
 .topics{
@@ -113,3 +119,44 @@ h1{
     text-decoration: none;
 }
 
+/* Die Duas*/
+.dua{
+    width: 80vw;
+    height: 80vh;
+    background-color: floralwhite;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.dua p.arabic{
+    font-family: Noto Sans Arabic;
+    font-size: 2.5vh;
+    color:#495057;
+    font-weight: 700;
+    padding: 2vh 2vw;
+    text-align: center;
+}
+
+.dua h3{
+    font-family: 'Nunito';
+    font-size: 3vh;
+    text-align: center;
+    color:#495057;
+
+}
+
+.dua p.transliteration{
+    font-family: 'Nunito';
+    font-size: 2.5vh;
+    text-align: center;
+    color:#495057;
+    padding: 2vh 2vw;
+}
+
+.dua p.translation{
+    font-family: 'Nunito';
+    font-size: 1.8vh;
+    text-align: center;
+    color:#495057;
+    padding: 2vh 2vw:
+}
