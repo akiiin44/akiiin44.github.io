@@ -79,6 +79,8 @@ h1{
 /* Container */
 .container{
     display: flex;
+    margin-bottom: 5vh;
+    flex-wrap: wrap;
 
 }
 
@@ -121,11 +123,12 @@ h1{
 
 /* Die Duas*/
 .dua{
-    width: 80vw;
-    height: 80vh;
+    flex: 1 1 auto;
     background-color: floralwhite;
     border-radius: 15px;
     margin: 0 auto;
+    overflow: hidden;
+    max-width: 80%;
 }
 
 .dua p.arabic{
@@ -158,5 +161,20 @@ h1{
     font-size: 1.8vh;
     text-align: center;
     color:#495057;
-    padding: 2vh 2vw:
+    padding: 2vh 2vw;
+}
+
+.dua p.repeat{
+    font-family: 'Nunito';
+    font-size: 1.8vh;
+    text-align: center;
+    color: #495057;
+    font-weight: bolder;
+    padding: 1.3vh 2vw;
+    background-color: #bde0fe;
+    align-self: center;
+    width: 18vw;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    border-radius: 80px;
 }
