@@ -162,6 +162,7 @@ h1{
     text-align: center;
     color:#495057;
     padding: 2vh 2vw;
+    margin: 0 auto;
 }
 
 .dua p.repeat{
@@ -178,3 +179,56 @@ h1{
     margin-bottom: 2vh;
     border-radius: 80px;
 }
+
+.dua-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dua-content{
+    display: none;
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.dua-content.open{
+    max-height: 1500px;
+    transition: max-heigt 0.5 ease-in;
+}
+
+.dua-active .dua-content{
+    display: block;
+}
+
+.fa-plus:before {
+    content: "\f067";
+  }
+  
+  .fa-minus:before {
+    content: "\f068";
+  }
+  .dua-toggle {
+    border: none;
+    background-color: #bde0fe;
+    font-size: 1.5em;
+    color: floralwhite;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4vw;
+    margin-left: 9vw;
+  }
+   
+  .dua-toggle:hover {
+    background-color: #89c4f4;
+  }
+  
